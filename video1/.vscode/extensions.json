@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "formulahendry.auto-rename-tag",
+        "aaron-bond.better-comments",
+        "coenraads.bracket-pair-colorizer-2",
+        "dsznajder.es7-react-js-snippets",
+        "eamodio.gitlens",
+        "ritwickdey.liveserver",
+        "esbenp.prettier-vscode"
+    ]
+}

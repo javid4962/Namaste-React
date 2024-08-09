@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Class 1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="root">Not render</div>
+
+    <!-- I want to put this below div with 2 heading elements inside root element using React -->
+    <!-- <div id="container">
+      <h1 id="heading1">heading1</h1>
+      <h2 id="heading2">heading2</h2>
+    </div> -->
+    
+
+    <!-- React CDN Links -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- JavaScript Code -->
+    <!-- JavaScript code to target #root element and add content -->
+    <!-- <script>
+            const body = document.body;
+            const root = document.getElementById('root');
+            root.innerText = "Hello World 2";
+            body.appendChild(root);
+        </script> -->
+
+
+    <!-- React Code starts -->
+    <!-- <script>
+      const h1 = React.createElement("h1", { class: "hello" }, "Hello World");
+      const root = document.getElementById("root");
+      ReactDOM.createRoot(root).render(h1);
+    </script> -->
+
+
+    <!-- putting div with 2 heading elements inside root element using React -->
+    <!-- <script>
+      const h1 = React.createElement("h1", { id: "heading1" }, "heading1");
+      const h2 = React.createElement("h2", { id: "heading2" }, "heading2");
+      const div = React.createElement("div", { id: "container" }, [h1, h2]);
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(div);
+    </script> -->
+
+    <!-- importing App.js file -->
+    <script src="App.js"></script>
+
+
+  </body>
+</html>
