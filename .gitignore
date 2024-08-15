@@ -1,0 +1,4 @@
+# video2 ignore folders
+video2/node_modules
+video2/.parcel-cache
+video2/dist
