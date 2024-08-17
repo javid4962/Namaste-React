@@ -231,7 +231,7 @@ npm install --save -dev parcel
     - all the helper packages/ functions are included in this folder.
 - We never have to put node_modules into our github repository.
 
-`parcel`
+## `parcel`
 
 - `Hot Module Replacement(HMR)` -> parcel will keep a track of all the files which we are updating.
 - `File Watcher Algorithm` - written in C++ -> which keep tracking updates made in code/ file.
