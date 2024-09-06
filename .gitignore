@@ -2,3 +2,13 @@
 video2/node_modules
 video2/.parcel-cache
 video2/dist
+
+# video3 ignore folders
+video3/node_modules
+video3/.parcel-cache
+video3/dist
+
+# video4 ignore folders
+video4/node_modules
+video4/.parcel-cache
+video4/dist

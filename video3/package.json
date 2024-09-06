@@ -1,0 +1,23 @@
+{
+  "name": "video3",
+  "version": "1.0.0",
+  "description": "- To run parcel application we execute\r ```cmd\r npx parcel index.html\r ```\r - we can change the scripts in package.json like\r ```json\r  \"scripts\": {\r     \"start\": \"parcel index.html\",\r     \"build\": \"parcel build index.html\",\r     \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\r   },\r ```\r - So that we now execute our parcel application using command\r ```cmd\r npm run start \r ```\r or\r ```cmd\r npm start\r ```\r - Also we make production build using \r ```cmd\r npm run build\r ```\r instead of \r ```cmd\r npx parcel build index.html\r ```",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "javid4962",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "Last 10 Chrome versions"
+  ]
+}
